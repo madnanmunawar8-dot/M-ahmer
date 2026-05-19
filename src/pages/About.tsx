@@ -36,7 +36,7 @@ export default function About() {
              <p className="text-brand-charcoal/60 leading-relaxed">
                 We believe that the publishing industry has lost touch with the visceral experience of reading. 
                 Mass-produced volumes and low-quality digital exports have diluted the sanctity of the text. 
-                At Aurelius, we return to the roots of publishing: artisanal care, rigorous editing, and 
+                At Elite Pages, we return to the roots of publishing: artisanal care, rigorous editing, and 
                 breathtaking aesthetic design.
              </p>
           </div>
@@ -93,9 +93,9 @@ export default function About() {
            </div>
            <div className="grid md:grid-cols-3 gap-12">
               {[
-                { name: "Julian Vane", role: "Founder & Editor-in-Chief", img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400" },
+                { name: "Daniel Carter", role: "Founder & Editor-in-Chief", img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400" },
                 { name: "Elena Rossi", role: "Creative Director", img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=400" },
-                { name: "Alistair Thorne", role: "Director of Global Distribution", img: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400" }
+                { name: "Marcus Thorne", role: "Director of Global Distribution", img: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400" }
               ].map((member, i) => (
                 <div key={i} className="group">
                   <div className="aspect-square overflow-hidden rounded-[2rem] mb-6 grayscale group-hover:grayscale-0 transition-all duration-700">

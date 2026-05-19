@@ -16,7 +16,7 @@ export default function Store() {
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-12">
             <div className="max-w-2xl">
               <h1 className="text-6xl font-serif mb-6 italic">The Collection</h1>
-              <p className="text-brand-charcoal/60 text-lg">Curated masterpieces from the Aurelius archives. Each volume represents months of meticulous craft.</p>
+              <p className="text-brand-charcoal/60 text-lg">Curated masterpieces from the Elite archives. Each volume represents months of meticulous craft.</p>
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
@@ -91,7 +91,7 @@ export default function Store() {
              <span className="text-brand-gold text-xs font-bold tracking-[0.3em] uppercase">Featured Author</span>
              <h2 className="text-5xl font-serif leading-tight">Elena Moretti <br/><span className="italic">On Crafting Silence</span></h2>
              <p className="text-lg text-brand-charcoal/60 leading-relaxed">
-                Elena's latest masterpiece, "The Silent Architect," has redefined contemporary fiction. Join us for an exclusive interview on her process and her journey with Aurelius.
+                Elena's latest masterpiece, "The Silent Architect," has redefined contemporary fiction. Join us for an exclusive interview on her process and her journey with Elite Pages.
              </p>
              <Link to="/blog" className="inline-flex items-center gap-3 font-bold uppercase tracking-widest text-xs border-b border-brand-charcoal pb-1 hover:text-brand-gold hover:border-brand-gold transition-all">
                 Read the Interview

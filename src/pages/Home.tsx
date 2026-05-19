@@ -19,12 +19,12 @@ export default function Home() {
               Est. {COMPANY_DETAILS.founded} • Global Distribution
             </span>
             <h1 className="text-6xl md:text-8xl font-serif leading-[0.95] mb-8 tracking-tighter">
-              Crafting <span className="italic">Legacies</span>, <br />
-              One Page at a Time.
+              Transform Your Story <br />
+              Into A Published <span className="italic">Success</span>.
             </h1>
             <p className="text-lg text-brand-charcoal/70 mb-10 max-w-lg leading-relaxed font-sans">
-              We bridge the gap between creative excellence and global readership. 
-              Transform your manuscript into a timeless cultural artifact.
+              Professional publishing solutions for authors, researchers, and businesses worldwide.
+              Take your manuscript from concept to global bestseller with Elite Pages.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link to="/submit" className="bg-brand-charcoal text-white px-8 py-4 text-sm font-bold uppercase tracking-widest hover:bg-brand-gold transition-all flex items-center gap-2 group">
@@ -135,7 +135,7 @@ export default function Home() {
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-20 items-center">
            <div>
-              <h2 className="text-4xl md:text-6xl mb-12">The <span className="italic">Aurelius</span> Standard</h2>
+              <h2 className="text-4xl md:text-6xl mb-12">The <span className="italic">Elite</span> Standard</h2>
               <div className="space-y-12">
                 {[
                   { icon: <Users />, title: "Concierge Editing", desc: "One-on-one structural and development editing with industry veterans." },
@@ -186,6 +186,34 @@ export default function Home() {
                   <p className="text-xs text-brand-charcoal/50 leading-relaxed px-4">{step.description}</p>
                </div>
              ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-24 bg-white dark:bg-brand-charcoal">
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl mb-6 italic">Common Queries</h2>
+            <p className="text-brand-charcoal/60 dark:text-white/60">Everything you need to know about publishing with Elite Pages.</p>
+          </div>
+          <div className="space-y-4">
+            {[
+              { q: "How long does the publishing process take?", a: "Typically, it takes 6-9 months from manuscript acceptance to global distribution, ensuring artisanal quality at every stage." },
+              { q: "Do I retain ownership of my rights?", a: "Yes, our models are designed to empower authors. You retain your intellectual property while we act as your strategic growth partner." },
+              { q: "What genres do you specialize in?", a: "We excel in Literary Fiction, High-Impact Non-Fiction, Academic Research, and Prestige Memoires." },
+              { q: "How do you handle global distribution?", a: "We orchestrate distribution across 30,000+ points including major retailers, independent boutiques, and academic institutions worldwide." }
+            ].map((faq, i) => (
+              <details key={i} className="group bg-[#F9F8F6] dark:bg-white/5 rounded-2xl p-6 cursor-pointer border border-transparent hover:border-brand-gold transition-all duration-300">
+                <summary className="list-none flex justify-between items-center font-serif text-lg py-2">
+                  {faq.q}
+                  <ArrowRight size={18} className="transition-transform group-open:rotate-90 text-brand-gold" />
+                </summary>
+                <p className="mt-4 text-brand-charcoal/60 dark:text-white/60 leading-relaxed italic">
+                  {faq.a}
+                </p>
+              </details>
+            ))}
           </div>
         </div>
       </section>

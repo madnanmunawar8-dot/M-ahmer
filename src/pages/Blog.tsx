@@ -35,7 +35,7 @@ export default function Blog() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-12 mb-20">
             <div className="max-w-2xl">
-              <h1 className="text-6xl md:text-8xl font-serif mb-8 italic tracking-tighter">The <span className="text-brand-gold italic">Aurelius</span> Journal</h1>
+              <h1 className="text-6xl md:text-8xl font-serif mb-8 italic tracking-tighter">The <span className="text-brand-gold italic">Elite</span> Journal</h1>
               <p className="text-xl text-brand-charcoal/60 leading-relaxed font-serif italic text-3xl">Perspectives on literature, prestige, and the art of the book.</p>
             </div>
             <div className="relative w-full md:w-80">

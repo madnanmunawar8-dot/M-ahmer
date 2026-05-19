@@ -1,6 +1,6 @@
 {
-  "name": "Aurelius Publishing",
-  "description": "Premium publishing services for authors, businesses, and academic institutions.",
+  "name": "Elite Pages Publishing",
+  "description": "Elite Pages Publishing is a modern publishing company helping authors, businesses, and researchers publish high-quality books globally.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

@@ -12,13 +12,22 @@
 
 @layer base {
   body {
-    @apply bg-white text-brand-charcoal font-sans antialiased;
+    @apply bg-white text-brand-charcoal font-sans antialiased transition-colors duration-300;
+  }
+  
+  .dark body {
+    @apply bg-brand-charcoal text-white;
   }
   
   h1, h2, h3, h4, h5, h6 {
     @apply font-serif;
   }
 }
+
+.dark .bg-white { @apply bg-brand-charcoal; }
+.dark .text-brand-charcoal { @apply text-white; }
+.dark .bg-[#F9F8F6] { @apply bg-white/5; }
+.dark .border-brand-charcoal\/5 { @apply border-white/10; }
 
 .glass {
   background: rgba(255, 255, 255, 0.8);

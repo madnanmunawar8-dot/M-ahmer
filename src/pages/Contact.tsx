@@ -13,7 +13,7 @@ export default function Contact() {
           >
             <h1 className="text-6xl md:text-8xl font-serif mb-8 italic">Let's Connect</h1>
             <p className="text-xl text-brand-charcoal/60 max-w-2xl mx-auto leading-relaxed">
-              Experience the Aurelius difference. Our team is ready to discuss your manuscript or institutional needs.
+              Experience the Elite difference. Our team is ready to discuss your manuscript or institutional needs.
             </p>
           </motion.div>
         </div>
@@ -145,7 +145,7 @@ export default function Contact() {
          <div className="absolute inset-0 flex items-center justify-center bg-brand-charcoal/5">
             <div className="text-center">
               <MapPin size={48} className="mx-auto text-brand-charcoal/20 mb-4" />
-              <p className="text-xs uppercase tracking-widest font-bold opacity-40 italic">Global Headquarters • Karachi</p>
+              <p className="text-xs uppercase tracking-widest font-bold opacity-40 italic">Global Headquarters • Lahore</p>
             </div>
          </div>
          {/* Simple visualization of a map */}

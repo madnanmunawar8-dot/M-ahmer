@@ -31,7 +31,7 @@ export default function Services() {
                 <h2 className="text-4xl md:text-5xl font-serif mb-8">{service.title}</h2>
                 <p className="text-brand-charcoal/60 text-lg leading-relaxed mb-10">
                   {service.description}
-                  At Aurelius, we treat every manuscript as a potential classic. Our specialized teams work across genres to ensure your unique value is amplified and protected.
+                  At Elite Pages, we treat every manuscript as a potential classic. Our specialized teams work across genres to ensure your unique value is amplified and protected.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12">
                    {service.benefits.map(benefit => (

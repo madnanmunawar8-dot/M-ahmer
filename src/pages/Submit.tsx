@@ -21,7 +21,7 @@ export default function Submit() {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
           >
-            <h1 className="text-6xl font-serif mb-8 italic">Become an Aurelius Author</h1>
+            <h1 className="text-6xl font-serif mb-8 italic">Become an Elite Pages Author</h1>
             <p className="text-xl text-white/60 max-w-2xl mx-auto">
               Our editorial board reviews every manuscript for visionary potential. Start your journey with us today.
             </p>
@@ -142,15 +142,15 @@ export default function Submit() {
                     ))}
                  </ul>
               </div>
-              <div className="bg-white p-12 rounded-[3rem] shadow-xl border border-brand-charcoal/5">
+              <div className="bg-white dark:bg-brand-charcoal p-12 rounded-[3rem] shadow-xl border border-brand-charcoal/5">
                  <h4 className="text-2xl font-serif mb-6">Our Review Philosophy</h4>
-                 <p className="text-sm text-brand-charcoal/60 leading-relaxed mb-6 italic">
-                    "At Aurelius, we do not look for commercial trends. We look for voices that have the weight to tilt the cultural axis. Whether you are self-taught or academically trained, the only thing that matters is the integrity of the work."
+                 <p className="text-sm text-brand-charcoal/60 dark:text-white/60 leading-relaxed mb-6 italic">
+                    "At Elite Pages, we do not look for commercial trends. We look for voices that have the weight to tilt the cultural axis. Whether you are self-taught or academically trained, the only thing that matters is the integrity of the work."
                  </p>
                  <div className="flex items-center gap-4">
-                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100" className="w-12 h-12 rounded-full object-cover" alt="Julian Vane" />
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100" className="w-12 h-12 rounded-full object-cover" alt="Daniel Carter" />
                     <div>
-                       <p className="text-sm font-bold uppercase tracking-widest">Julian Vane</p>
+                       <p className="text-sm font-bold uppercase tracking-widest">Daniel Carter</p>
                        <p className="text-[10px] opacity-40 uppercase tracking-widest">Founder & CEO</p>
                     </div>
                  </div>

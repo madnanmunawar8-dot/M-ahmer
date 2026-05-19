@@ -1,20 +1,20 @@
 export const COMPANY_DETAILS = {
-  name: "Aurelius Publishing",
-  tagline: "Crafting Legacies, One Page at a Time.",
-  founded: 2010,
-  hq: "Karachi DHA Phase 7",
-  founder: "Julian Vane",
-  email: "Rafaykhan79@gmail.com",
-  phone: "3042233889",
-  whatsapp: "3042233889",
+  name: "Elite Pages Publishing",
+  tagline: "Turning Manuscripts Into Masterpieces",
+  founded: 2018,
+  hq: "Lahore Gulberg",
+  founder: "Daniel Carter",
+  email: "tiny2123",
+  phone: "11333333",
+  whatsapp: "11333333",
   socials: {
-    twitter: "https://twitter.com/aureliuspub",
-    linkedin: "https://linkedin.com/company/aurelius-publishing",
-    instagram: "https://instagram.com/aureliuspublishing",
+    twitter: "https://twitter.com/elitepages",
+    linkedin: "https://linkedin.com/company/elite-pages-publishing",
+    instagram: "https://instagram.com/elitepagespublishing",
   },
-  mission: "To empower visionary authors by transforming their manuscripts into timeless cultural artifacts through artisanal craft and global reach.",
-  vision: "To be the definitive bridge between creative excellence and the global readership, redefining the standard of prestige in the digital age.",
-  history: "Founded in a small West Village apartment, Aurelius began with a single mission: to return the 'craft' to publishing. Over fifteen years, we have grown into a global powerhouse, yet our focus remains on the individual author and the sacred relationship between reader and text."
+  mission: "To help writers transform their ideas into professionally published works that inspire readers worldwide.",
+  vision: "To become one of the world’s most trusted and innovative publishing brands.",
+  history: "Elite Pages Publishing is a modern publishing company helping authors, businesses, and researchers publish high-quality books globally. The company specializes in premium publishing solutions including editing, design, printing, digital publishing, and worldwide distribution."
 };
 
 export const SERVICES = [
