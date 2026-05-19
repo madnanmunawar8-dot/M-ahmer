@@ -1,0 +1,6 @@
+{
+  "name": "Aurelius Publishing",
+  "description": "Premium publishing services for authors, businesses, and academic institutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
