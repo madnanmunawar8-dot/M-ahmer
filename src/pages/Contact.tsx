@@ -48,7 +48,7 @@ export default function Contact() {
                        <Phone size={24} />
                     </div>
                     <div>
-                       <h4 className="text-sm font-bold uppercase tracking-widest mb-1">Direct Line</h4>
+                       <h4 className="text-sm font-bold uppercase tracking-widest mb-1">Phone Number</h4>
                        <p className="text-brand-charcoal/60 leading-relaxed font-serif text-lg">{COMPANY_DETAILS.phone}</p>
                     </div>
                  </div>

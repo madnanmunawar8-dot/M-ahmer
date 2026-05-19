@@ -37,3 +37,22 @@
 .gold-gradient {
   background: linear-gradient(135deg, #D4AF37 0%, #F1D279 50%, #B8860B 100%);
 }
+
+.rainbow-text {
+  background: linear-gradient(to right, #ef4444, #f97316, #eab308, #22c55e, #3b82f6, #6366f1, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: rainbow-anim 4s linear infinite;
+}
+
+.rainbow-bg {
+  background: linear-gradient(to right, #ef4444, #f97316, #eab308, #22c55e, #3b82f6, #6366f1, #a855f7);
+  background-size: 200% auto;
+  animation: rainbow-anim 4s linear infinite;
+}
+
+@keyframes rainbow-anim {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
+}

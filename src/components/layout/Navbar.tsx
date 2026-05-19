@@ -41,12 +41,13 @@ export default function Navbar() {
         scrolled ? 'bg-white/80 dark:bg-brand-charcoal/80 backdrop-blur-md py-4 border-black/5 dark:border-white/5' : 'bg-transparent py-6 border-transparent'
       )}
     >
+      <div className="absolute top-0 left-0 right-0 h-1 rainbow-bg" />
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between font-sans">
         <Link to="/" className="flex items-center gap-2 group">
           <BookOpenText className="w-8 h-8 text-brand-gold transition-transform group-hover:scale-110" />
           <span className="font-serif text-xl font-semibold tracking-tight uppercase dark:text-white">
             {COMPANY_DETAILS.name.split(' ')[0]}
-            <span className="text-brand-gold">.</span>
+            <span className="rainbow-text">.</span>
           </span>
         </Link>
 

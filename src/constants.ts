@@ -4,7 +4,7 @@ export const COMPANY_DETAILS = {
   founded: 2018,
   hq: "Jinnah Street, Lahore",
   founder: "Daniel Carter",
-  email: "tiny2123",
+  email: "sunflower2123",
   phone: "123789",
   whatsapp: "123789",
   socials: {

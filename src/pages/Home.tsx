@@ -20,7 +20,7 @@ export default function Home() {
             </span>
             <h1 className="text-6xl md:text-8xl font-serif leading-[0.95] mb-8 tracking-tighter">
               Transform Your Story <br />
-              Into A Published <span className="italic">Success</span>.
+              Into A Published <span className="italic rainbow-text">Success</span>.
             </h1>
             <p className="text-lg text-brand-charcoal/70 mb-10 max-w-lg leading-relaxed font-sans">
               Professional publishing solutions for authors, researchers, and businesses worldwide.
@@ -220,20 +220,20 @@ export default function Home() {
 
       {/* CTA Section */}
       <section className="py-24 bg-white px-6">
-        <div className="max-w-5xl mx-auto bg-brand-charcoal rounded-[4rem] p-12 md:p-24 text-center text-white relative overflow-hidden">
-          <div className="absolute top-0 right-0 w-64 h-64 bg-brand-gold/10 rounded-full blur-3xl -mr-32 -mt-32" />
-          <div className="absolute bottom-0 left-0 w-64 h-64 bg-brand-gold/10 rounded-full blur-3xl -ml-32 -mb-32" />
+        <div className="max-w-5xl mx-auto rainbow-bg rounded-[4rem] p-12 md:p-24 text-center text-white relative overflow-hidden shadow-2xl">
+          <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -mr-32 -mt-32" />
+          <div className="absolute bottom-0 left-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -ml-32 -mb-32" />
           
-          <h2 className="text-4xl md:text-6xl mb-8 relative z-10">Ready to Shape <span className="italic text-brand-gold">History?</span></h2>
-          <p className="text-white/60 mb-12 max-w-2xl mx-auto text-lg">
+          <h2 className="text-4xl md:text-6xl mb-8 relative z-10 font-bold drop-shadow-lg">Ready to Shape <span className="italic">History?</span></h2>
+          <p className="text-white/90 mb-12 max-w-2xl mx-auto text-lg font-medium drop-shadow-md">
             Whether you're an established writer or a first-time author, we have the tools, 
             vision, and commitment to elevate your work.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center relative z-10">
-            <Link to="/contact" className="bg-brand-gold text-brand-charcoal px-10 py-5 rounded-full text-sm font-bold uppercase tracking-widest hover:scale-105 transition-transform">
+            <Link to="/contact" className="bg-white text-brand-charcoal px-10 py-5 rounded-full text-sm font-bold uppercase tracking-widest hover:scale-105 transition-transform shadow-lg">
               Schedule Consultation
             </Link>
-            <Link to="/submit" className="border border-white/20 text-white px-10 py-5 rounded-full text-sm font-bold uppercase tracking-widest hover:bg-white hover:text-brand-charcoal transition-all">
+            <Link to="/submit" className="bg-brand-charcoal/30 backdrop-blur-sm border border-white/40 text-white px-10 py-5 rounded-full text-sm font-bold uppercase tracking-widest hover:bg-white hover:text-brand-charcoal transition-all shadow-lg">
               Submit Manuscript
             </Link>
           </div>
